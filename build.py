@@ -47,4 +47,4 @@ for version in versions:
     zip_location = os.path.join(build_path, f'Tachyon-MultiMC-{version}')
     shutil.make_archive(zip_location, 'zip', mmc_version)
     with zipfile.ZipFile(zip_location + '.zip', 'a') as zipf:
-        zipf.writestr("packwiz-installer-bootstrap.jar", packwiz_bootstrap())
+        zipf.writestr(".minecraft/packwiz-installer-bootstrap.jar", packwiz_bootstrap())
