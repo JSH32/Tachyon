@@ -65,6 +65,10 @@ file = "config/yosbr/config/cullleaves.json"
 hash = "6ba25b17d218c13aecd7773fb0dd9f01783997854cc7123891e526e82490662e"
 
 [[files]]
+file = "config/yosbr/config/customsplashscreen.json5"
+hash = "1533a8bd26f4b3067beaae9c54ed8db2c02f28be560c53d7ce729ad189bfc6bb"
+
+[[files]]
 file = "config/yosbr/config/dynamicfps.toml"
 hash = "c7a2ea1f43c8ee7d0aa1b785e44dba2d00369215639da29a5fb94693bf7f1d52"
 
