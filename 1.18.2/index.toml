@@ -6,7 +6,7 @@ hash = "2c6089744f5ece2d91968dea5bcd03d955af5e185ef8c583e1eb8a82390e7d51"
 
 [[files]]
 file = "config/customsplashscreen/background.png"
-hash = "2950867ff05899ea7bcadcaa20ff54c9aa0188b48b063341705adc2f478bd4d7"
+hash = "7e4e515676ef557db7a33731c89739bd6f67377333da91a496f43dfa9773fbef"
 
 [[files]]
 file = "config/customsplashscreen/mojangstudios.png"
@@ -26,7 +26,7 @@ hash = "6e2fa0adee9638b3e8f36e75ad048f0abb0de2d06b591961c6b2aff943fd46f2"
 
 [[files]]
 file = "config/customsplashscreen/tachyon.png"
-hash = "4d1608ac9cb4162a47a9d08acb60e1bfd57cf97325f2877b3813cb962ab83484"
+hash = "fc773903362ba7c8f72db5cc21363a0a61747dcd31a140fd57c0710fa8a3d9b9"
 
 [[files]]
 file = "config/debugify.json"
@@ -35,6 +35,10 @@ hash = "bf2719128e353ac2858cb550b4cd11d850a58dce6999c76ee696244efd9af452"
 [[files]]
 file = "config/midnightlib.json"
 hash = "b6b0d17bda8621d78e0de5080592858d39075bf1f6b19f6a40f2cddf7ba3b021"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "8d166b1cf9d3137134ae7dc172501aff84ad24fd81a6baa6fa6fe9e1f0219087"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
@@ -75,6 +79,10 @@ hash = "c7a2ea1f43c8ee7d0aa1b785e44dba2d00369215639da29a5fb94693bf7f1d52"
 [[files]]
 file = "config/yosbr/config/lambdabettergrass.toml"
 hash = "beadb85b6177ae7842d0dbe10e1e47fb9e470f5967afda52aaae55c756ecbf21"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "8d166b1cf9d3137134ae7dc172501aff84ad24fd81a6baa6fa6fe9e1f0219087"
 
 [[files]]
 file = "config/yosbr/config/slightguimodifications/config.json5"
