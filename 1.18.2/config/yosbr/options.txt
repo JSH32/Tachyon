@@ -1,0 +1,7 @@
+version:2975
+autoJump:false
+guiScale:3
+resourcePacks:["vanilla","Fabric Mods","cullleaves/smartleaves","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix"]
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true

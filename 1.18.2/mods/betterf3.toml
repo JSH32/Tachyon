@@ -1,0 +1,13 @@
+name = "BetterF3"
+filename = "BetterF3-1.2.4-Fabric-1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3707/871/BetterF3-1.2.4-Fabric-1.18.2.jar"
+hash-format = "sha1"
+hash = "f294cc99ffcf244416522f83a533b4b3b0942557"
+
+[update]
+[update.curseforge]
+file-id = 3707871
+project-id = 401648
