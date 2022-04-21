@@ -14,13 +14,13 @@ versions = [
 
 print(f'=== Building all modpacks ({len(versions)}) ===')
 
-mmc_path = os.path.join(os.getcwd(), 'MultiMC')
-build_path = os.path.join(os.getcwd(), 'build')
+mmc_path = os.path.join(os.getcwd(), 'MultiMC') # MultiMC path
+build_path = os.path.join(os.getcwd(), 'build') # Build path
 shutil.rmtree(build_path, ignore_errors=True)
 os.makedirs(build_path)
 
-def packwiz_export(version, export_type, ext = 'zip'):
-    dir_path = cwd=os.path.join(os.getcwd(), version)
+def packwiz_export(version: str, export_type: str, ext: str = 'zip') -> None:
+    dir_path = os.path.join(os.getcwd(), version)
     p = subprocess.Popen(['packwiz', export_type, 'export'], cwd=dir_path)
     p.wait()
     # there should only be one archive
@@ -47,7 +47,7 @@ for version in versions:
     print(f'Building MultiMC ({version})')
 
     # Will be available in each suffixed '.template' file in MultiMC directory
-    variables = { 'version': version }
+    template_vars = { 'version': version }
 
     # Generate MultiMC auto updating packs
     with zipfile.ZipFile(os.path.join(build_path, f'Tachyon-MultiMC-{version}.zip'), "w") as zipf:
@@ -57,7 +57,7 @@ for version in versions:
             if path.endswith('.template'):
                 with open(sys_path) as f:
                     template_str = f.read()
-                    for key, value in variables.items():
+                    for key, value in template_vars.items():
                         template_str = template_str.replace(f"${key}$", value) # Replace all variables in template files
 
                     zipf.writestr(path.removesuffix('.template'), template_str)
