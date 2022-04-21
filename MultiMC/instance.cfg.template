@@ -3,7 +3,7 @@ JvmArgs=-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -X
 OverrideJavaArgs=true
 OverrideMemory=false
 OverrideCommands=true
-PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/JSH32/Tachyon/main/1.18.2/pack.toml
+PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/JSH32/Tachyon/main/$version$/pack.toml
 iconKey=default
-name=Tachyon (1.18.2)
+name=Tachyon ($version$)
 notes=

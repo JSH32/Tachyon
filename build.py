@@ -5,6 +5,8 @@ import json
 import urllib.request
 import zipfile
 from functools import cache
+import glob
+import re
 
 versions = [
     '1.18.2'
@@ -43,8 +45,23 @@ for version in versions:
     packwiz_export(version, 'modrinth', 'mrpack')
 
     print(f'Building MultiMC ({version})')
-    mmc_version = os.path.join(mmc_path, version)
-    zip_location = os.path.join(build_path, f'Tachyon-MultiMC-{version}')
-    shutil.make_archive(zip_location, 'zip', mmc_version)
-    with zipfile.ZipFile(zip_location + '.zip', 'a') as zipf:
-        zipf.writestr(".minecraft/packwiz-installer-bootstrap.jar", packwiz_bootstrap())
+
+    # Will be available in each suffixed '.template' file in MultiMC directory
+    variables = { 'version': version }
+
+    # Generate MultiMC auto updating packs
+    with zipfile.ZipFile(os.path.join(build_path, f'Tachyon-MultiMC-{version}.zip'), "w") as zipf:
+        zipf.writestr('.minecraft/packwiz-installer-bootstrap.jar', packwiz_bootstrap()) # Put bootstrapper
+        for sys_path in glob.iglob(f'{mmc_path}/**/*', recursive=True):
+            path = re.sub(r'[/\\]', '', sys_path.removeprefix(mmc_path))
+            if path.endswith('.template'):
+                with open(sys_path) as f:
+                    template_str = f.read()
+                    for key, value in variables.items():
+                        template_str = template_str.replace(f"${key}$", value) # Replace all variables in template files
+
+                    zipf.writestr(path.removesuffix('.template'), template_str)
+                    print(f"Generated template ({path}) for {version}")
+            else:
+                zipf.write(sys_path, path)
+                print(f"Copied file ({path}) for {version}")
