@@ -1,12 +1,12 @@
+from genericpath import isdir
 import os
+import pathlib
 import subprocess
 import shutil
 import json
 import urllib.request
 import zipfile
 from functools import cache
-import glob
-import re
 
 versions = [
     '1.18.2'
@@ -52,8 +52,13 @@ for version in versions:
     # Generate MultiMC auto updating packs
     with zipfile.ZipFile(os.path.join(build_path, f'Tachyon-MultiMC-{version}.zip'), "w") as zipf:
         zipf.writestr('.minecraft/packwiz-installer-bootstrap.jar', packwiz_bootstrap()) # Put bootstrapper
-        for sys_path in glob.iglob(f'{mmc_path}/**/*', recursive=True):
-            path = re.sub(r'[/\\]', '', sys_path.removeprefix(mmc_path))
+        for sys_path in list(pathlib.Path(mmc_path).glob('**/*')):
+            if isdir(sys_path): 
+                continue
+
+            sys_path = str(sys_path)
+
+            path = sys_path.removeprefix(mmc_path).strip('/').strip('\\')
             if path.endswith('.template'):
                 with open(sys_path) as f:
                     template_str = f.read()
