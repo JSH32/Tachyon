@@ -37,10 +37,6 @@ file = "config/midnightlib.json"
 hash = "b6b0d17bda8621d78e0de5080592858d39075bf1f6b19f6a40f2cddf7ba3b021"
 
 [[files]]
-file = "config/modmenu.json"
-hash = "8d166b1cf9d3137134ae7dc172501aff84ad24fd81a6baa6fa6fe9e1f0219087"
-
-[[files]]
 file = "config/slightguimodifications/cts.groovy"
 hash = "8670ec25f66d500250161f00f5147d1f0d7591974e5243a07bb55a8b0641e624"
 
@@ -79,10 +75,6 @@ hash = "c7a2ea1f43c8ee7d0aa1b785e44dba2d00369215639da29a5fb94693bf7f1d52"
 [[files]]
 file = "config/yosbr/config/lambdabettergrass.toml"
 hash = "beadb85b6177ae7842d0dbe10e1e47fb9e470f5967afda52aaae55c756ecbf21"
-
-[[files]]
-file = "config/yosbr/config/modmenu.json"
-hash = "8d166b1cf9d3137134ae7dc172501aff84ad24fd81a6baa6fa6fe9e1f0219087"
 
 [[files]]
 file = "config/yosbr/config/slightguimodifications/config.json5"
