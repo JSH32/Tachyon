@@ -7,6 +7,7 @@ import shutil
 import json
 import urllib.request
 import zipfile
+import toml
 
 # Versions to build, these must be folders in the root path
 versions = [
@@ -54,8 +55,14 @@ for version in versions:
 
     print(f'Building MultiMC ({version})')
 
+    with open(f'./{version}/pack.toml', "r") as f:
+        pack_config = toml.loads(f.read())
+
     # Will be available in each suffixed '.template' file in MultiMC directory
-    template_vars = { 'version': version }
+    template_vars = { 
+        'version': version,
+        'fabric_version': pack_config['versions']['fabric']
+    }
 
     # Generate MultiMC auto updating packs
     with zipfile.ZipFile(os.path.join(build_path, f'Tachyon-MultiMC-{version}.zip'), "w") as zipf:
