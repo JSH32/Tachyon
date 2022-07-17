@@ -1,4 +1,5 @@
 from genericpath import isdir
+from functools import cache
 import os
 import pathlib
 import subprocess
@@ -6,16 +7,20 @@ import shutil
 import json
 import urllib.request
 import zipfile
-from functools import cache
 
+# Versions to build, these must be folders in the root path
 versions = [
-    '1.18.2'
+    '1.18.2',
+    '1.19'
 ]
 
-print(f'=== Building all modpacks ({len(versions)}) ===')
+# MultiMC path
+mmc_path = os.path.join(os.getcwd(), 'MultiMC')
 
-mmc_path = os.path.join(os.getcwd(), 'MultiMC') # MultiMC path
-build_path = os.path.join(os.getcwd(), 'build') # Build path
+# Build path
+build_path = os.path.join(os.getcwd(), 'build')
+
+# Recreate the build path
 shutil.rmtree(build_path, ignore_errors=True)
 os.makedirs(build_path)
 
@@ -37,9 +42,12 @@ def packwiz_bootstrap() -> bytes:
     bootstrap_url = json.load(req)['assets'][0]['browser_download_url']
     return urllib.request.urlopen(bootstrap_url).read()
 
+print(f'=== Building all modpacks ({len(versions)}) ===')
+
+# Build every version
 for version in versions:
     print(f'Building curseforge ({version})')
-    packwiz_export(version, "curseforge")
+    packwiz_export(version, 'curseforge')
 
     print(f'Building modrinth ({version})')
     packwiz_export(version, 'modrinth', 'mrpack')

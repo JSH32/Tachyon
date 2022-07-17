@@ -1,12 +1,12 @@
 name = "Tachyon"
 author = "JSH32"
 version = "1.0.0"
-pack-format = "packwiz:1.0.0"
+pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4db5821fdc7ad465ac904f3da2f6d57add1c99f5caad6cb6c3cb65166618b640"
+hash = "f95bb642a7057c7e8b3b68a7729d09fd11811da0dfaf1e7a44e773205ae8bf40"
 
 [versions]
 fabric = "0.14.0"
