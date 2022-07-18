@@ -376,7 +376,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.toml"
-hash = "8aa2ede017f67c1d581cd43d0c48faf8ca4b7a28bf0361f0020833e54d410614"
+hash = "aedf4a95a13a79029af8ce7c5f111d6d4fcd2cc51f4f9bd4af9194fdac58502b"
 metafile = true
 
 [[files]]
