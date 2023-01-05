@@ -1,0 +1,8 @@
+name = "Cloth API"
+filename = "cloth-api.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/JSH32/Tachyon/main/external/cloth-api-4.0.65.jar"
+hash-format = "sha256"
+hash = "6F576983232CCC146BFFE9599CC1AE961123E2F545CD0491CCECFBEBCB61163F"

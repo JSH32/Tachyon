@@ -1,0 +1,1 @@
+External mods which can't be fetched from modrinth or curse for whatever reason.

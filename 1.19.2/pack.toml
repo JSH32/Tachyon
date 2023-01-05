@@ -1,0 +1,13 @@
+name = "Tachyon 1.19.2"
+author = "JSH32"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "04a4809caf331d364f5e3a00adb08bbf0645c935564c77a37b92effca76f28bc"
+
+[versions]
+fabric = "0.14.12"
+minecraft = "1.19.2"
