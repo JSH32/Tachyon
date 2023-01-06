@@ -81,6 +81,10 @@ file = "config/yosbr/config/midnightlib.json"
 hash = "f7f7122784c7a6bcdb034e663fd756e16ffe69a668cb1b334e2be622f8c7bd55"
 
 [[files]]
+file = "config/yosbr/config/multiconnect/config.json"
+hash = "e91893f35f33f18676b00a7583dfecf73821e51568763a83cf8718dc5c9a9598"
+
+[[files]]
 file = "config/yosbr/config/sodium-options.json"
 hash = "dd6f94bc9b0002d8db083a1f7a4238fd93489046f3084b03ce92338ab5a65b00"
 
@@ -90,7 +94,12 @@ hash = "ef73ff0fcd6f7e7f3727f493ab61fdc8a65d710475426a55f72eb772ef0ed309"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "fa32fb5f03af862a301c06b71a70f03e5c8f8579acf28f883604a93ff19fef30"
+hash = "947fede6cf6ea1e2506004a13ad02887b56a287c74557b391af21f5b5caf2dfc"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "fbad3ce2bcab1b8a73a541000100dc5ed3323bcf571e4e2a4a3c28db5c520509"
+metafile = true
 
 [[files]]
 file = "mods/advanced-tooltips.pw.toml"
@@ -160,11 +169,6 @@ metafile = true
 [[files]]
 file = "mods/borderlessmining.pw.toml"
 hash = "de041e2c7a3a94cebdef9e22bebb7b81c1340762423209bb9a3fbc4934a9da1d"
-metafile = true
-
-[[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "01ab4442937c2d1f582722d139c0d02b3fc36c61a3eeebb4e81bd5256b7d8470"
 metafile = true
 
 [[files]]
@@ -294,7 +298,7 @@ metafile = true
 
 [[files]]
 file = "mods/illuminations.pw.toml"
-hash = "9ab56a1b48105e0d8e457b0a1e832e6a269164ede233f7372599b1b0a6bfea27"
+hash = "3f6da5e369effa47f662723c3b8c8bc1b6756c03c7dc10dbc3ab6fb49ed17beb"
 metafile = true
 
 [[files]]
@@ -398,6 +402,11 @@ hash = "bbbba894f37c75d3f7911ab2bf4bd8feedd4ee6bb92060eb03ffc378a38c07b3"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "17dc4f0920a4089790c8d13abff319a5e83f2aea7a06cdd3cc79699fa5ccdc8a"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "cbc992bd5c0a572dd4712f8eeef4fedd531cf4a1642876ab579039488dabfe8f"
 metafile = true
@@ -478,16 +487,16 @@ hash = "fb2d59112294b5fa973c5726c1ac7d804e51a8837cb74badae970aea5ed7dce1"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Fancy GUI Overhaul v0.1.2.7.zip"
-hash = "afdf52d928cde3db836d2ec64ae36cd6051c86759f4e42ecd9459da306c21e1c"
-
-[[files]]
-file = "resourcepacks/Mod Menu Helper.zip"
-hash = "6c7ab163c1565daa722710a1846441001b2fd43026d64331f68605d488b2c61c"
-
-[[files]]
-file = "resourcepacks/Stay True 1.19.zip"
+file = "resourcepacks/StayTrue1.19.zip"
 hash = "ae21deee13f9139506e14fc73e3d99681468cd79ae9fa7ab988bc9e7d0fdecec"
+
+[[files]]
+file = "resourcepacks/xali's+Potions+v1.0.zip"
+hash = "f6d453bd60909dae3218ac4f42bbec8168aee1ded499977837dfe8d4691412ea"
+
+[[files]]
+file = "resourcepacks/xali-s-Enchanted-Books-16x-v0.10.1.zip"
+hash = "4ffeb262e3898c4000cb8595c80e7d313fac3e795ada930172fcffc496fe5f0d"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r1.4.zip"

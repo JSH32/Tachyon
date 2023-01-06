@@ -3,7 +3,7 @@ mainMenu {
     label {
         position {
             x { it - 2 }
-            y { it - 32 }
+            y { it - 20 }
         }
         text = literal("Tachyon 1.19.2")
         align = "right"
