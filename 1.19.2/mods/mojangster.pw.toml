@@ -1,0 +1,8 @@
+name = "Mojangster"
+filename = "mojangster.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/JSH32/Tachyon/main/external/mojangster-1.0.0-1.19-fabric.jar"
+hash-format = "sha256"
+hash = "453A40BFD6E2722D3BA9B7332592931777A440E130E18B2EE0FA9CFE13F2C144"
