@@ -12,7 +12,8 @@ import toml
 # Versions to build, these must be folders in the root path
 versions = [
     '1.18.2',
-    '1.19'
+    '1.19',
+    '1.19.2'
 ]
 
 # MultiMC path

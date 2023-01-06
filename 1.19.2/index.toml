@@ -22,7 +22,7 @@ hash = "1db967817059276c90dd3fd34e2573abe7883f2a169285a2c03632f6c9d31fe8"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "e8775dd8d7facbff4b754cf892fd999da1d2dbfc0e761bafe84fb0a23e61b284"
+hash = "3a18fbbcc23458edaa8e6efda722f209c60ac5c0f623fe819d2a7363285a017a"
 
 [[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
@@ -59,6 +59,10 @@ hash = "eefa86fa9a8df6eda5d39d3bbbf53138a44df71a01a24262c27584badea97d79"
 [[files]]
 file = "config/yosbr/config/holdthatchunk.json"
 hash = "acc20d0a92edcf0497ebb62c7c673a8d9c99d872890bb53027722390f453e9dc"
+
+[[files]]
+file = "config/yosbr/config/illuminations.properties"
+hash = "7430443097be19c6dc38513cdbcb25d9f310e242d2d738baea2b974e3211c825"
 
 [[files]]
 file = "config/yosbr/config/iris.properties"

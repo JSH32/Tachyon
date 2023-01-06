@@ -13,10 +13,6 @@ file = "config/midnightlib.json"
 hash = "b6b0d17bda8621d78e0de5080592858d39075bf1f6b19f6a40f2cddf7ba3b021"
 
 [[files]]
-file = "config/slightguimodifications/cts.groovy"
-hash = "502e11c7b5343ea76717f13bc59b104add22c1a06a3ca80b6b8c91d39e3e4aa6"
-
-[[files]]
 file = "config/yosbr/config/borderlessmining.json"
 hash = "218378251afa8fbcaf65f02b9b47f54c78907cd8a2f469aad03cd57d6ab79942"
 
