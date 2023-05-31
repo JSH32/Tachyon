@@ -1,0 +1,25 @@
+{
+    "main_menu": {
+        "top_left": [],
+        "top_right": [],
+        "bottom_left": [],
+        "bottom_right": [
+            {
+                "text": "Tachyon 1.19.4",
+                "color": "#FFFFFF",
+                "clickEvent": {
+                    "action": "open_url",
+                    "value": "https://github.com/JSH32/Tachyon"
+                }
+            }
+        ],
+        "mod_blacklist": []
+    },
+    "pause_menu": {
+        "top_left": [],
+        "top_right": [],
+        "bottom_left": [],
+        "bottom_right": [],
+        "mod_blacklist": []
+    }
+}

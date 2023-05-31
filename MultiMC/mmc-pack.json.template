@@ -37,15 +37,15 @@
             "version": "$version$"
         },
         {
-            "cachedName": "Fabric Loader",
+            "cachedName": "Fabric/Quilt Loader",
             "cachedRequires": [
                 {
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "cachedVersion": "$fabric_version$",
-            "uid": "net.fabricmc.fabric-loader",
-            "version": "$fabric_version$"
+            "cachedVersion": "$loader_version$",
+            "uid": "$loader_uid",
+            "version": "$loader_version$"
         }
     ],
     "formatVersion": 1

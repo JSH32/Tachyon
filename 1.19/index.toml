@@ -264,75 +264,75 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughcrashes.pw.toml"
-hash = "d798b72bb24f798374d4bcf72c848c3f304c442fa08e0f900200a6a883f0345c"
+hash = "01efbdcb32ff6e70b6777e26df46bbe3c6c5aecb3e0c81797d234dfad9e0568d"
 metafile = true
 
 [[files]]
 file = "mods/puzzle.pw.toml"
-hash = "827148df54d1b38157b3319ac8fecfc08b3ea935e82c182f39186f65fea353d1"
+hash = "ac7920d31fab63ba23daf953a44750930f597bcd3bc11121845541e934d0aef4"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "780a122f7b97aa4a4cd0f70ae421ed79f9a6c8371227888f62f840138b0636d3"
+hash = "b4d8e22f7916c1a2e8be07b708cd02d16bd730e382bb7ca36a615cf3e6782940"
 metafile = true
 
 [[files]]
 file = "mods/slight-gui-modifications.pw.toml"
-hash = "e98e3f85fb3c42cf47692fd010b8eac9e1c81f2653490c41b6c45e21f3af8b7e"
+hash = "aa48e77418f219eb986a48cf26f76b0fa83f61ca4564432587877b718d105377"
 metafile = true
 
 [[files]]
 file = "mods/smooth-scrolling-everywhere-fabric.pw.toml"
-hash = "218703a2fb3dbca5806d8b6b178c40c4a73b6b7fb801bccd7d18c8ca2b9f0277"
+hash = "4b739b90aa5ca2eac2b43a9482a0c0ee80718415352a0644e6770480ff38de32"
 metafile = true
 
 [[files]]
 file = "mods/smoothboot-fabric.pw.toml"
-hash = "7c0c3fdc225b1938ba7dc03cc06c3bc7e6e127617d6c1ffc77db1384f7544a75"
+hash = "971e8b0bef16bd6ce88c7f940b30fdc1debff7b715058f4d331d54beb58a4314"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "44753d43c1317219d09a1c6cf5cf87a8e000d4d667a7b943338fc94949cdd2a5"
+hash = "8bdc3c1b5079b7fbe89f995d1a100e1df8dcf47e73ef089abf444ecc8e320527"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "ff14639a937cf18188111473e9318222be02f32e66dfceef470728dbcceb27d8"
+hash = "0d539d8bad8493d4196bf5f7bf216d692384f283849fa41a2e5a816a0147673e"
 metafile = true
 
 [[files]]
 file = "mods/starlight.pw.toml"
-hash = "bd5a6a0ddf6b0f26318524ca0bb2d9a6b393e2d19a6c3107a13e390dda3c1cd7"
+hash = "be68ef606c339bbb22f2b812db1e5264d9e3335befc0c348d4dc91a8a3e72e17"
 metafile = true
 
 [[files]]
 file = "mods/stendhal.pw.toml"
-hash = "8736feaba469063dfaf5880a6436aacee5b5ecfd14c15d66af977b9e04429166"
+hash = "8032db24b80201b84fca1fc2e64df6cd253978e7868bf5fd44218547c087a81b"
 metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "7d52a2a2df1cd0315f43b004101f8e8e7157effcea0b03375e1b16cf088f0d32"
+hash = "6230511311dcd1e74e10121b78b1e6fb47d28f3fb5b2ecda533c7094a16862c0"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "36442c5371d0b2b7a12608525966194ce2162f4dc083eee6fe6e5e91c0604026"
+hash = "245d6cbe0881847ca901cdfa58272ce92b32e354a228d6d2cf44de3351a5a9c2"
 metafile = true
 
 [[files]]
 file = "mods/visuality.pw.toml"
-hash = "32c12d4ca7b5a4c25da4218547f3f5b4a922e96d4ac1dbb543da07ad5b0031cb"
+hash = "9ff97d15f98320cec39af7c1e1fe9b9a5aaf4d51e899ffdfdbb4ad1fc1b03f4f"
 metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "5489b8e77849de65099b374dd2ff274149e7df44812883026b7df83136e66cff"
+hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "ea2a9f3a592b4d8e048c723f43ae919fc9cd273892e9c4f56820e42c55364f1c"
+hash = "c6c963c8c9389d864664aabfd259e9b3909c274b56b2ff1477dac551216b3a28"
 metafile = true

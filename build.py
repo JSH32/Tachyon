@@ -13,7 +13,8 @@ import toml
 versions = [
     '1.18.2',
     '1.19',
-    '1.19.2'
+    '1.19.2',
+    '1.19.4'
 ]
 
 # MultiMC path
@@ -28,7 +29,7 @@ os.makedirs(build_path)
 
 def packwiz_export(version: str, export_type: str, ext: str = 'zip') -> None:
     dir_path = os.path.join(os.getcwd(), version)
-    p = subprocess.Popen(['packwiz', export_type, 'export'], cwd=dir_path)
+    p = subprocess.Popen(['../packwiz', export_type, 'export'], cwd=dir_path)
     p.wait()
     # there should only be one archive
     archive = [f for f in os.listdir(dir_path) if f.endswith(f'.{ext}')][0]
@@ -59,10 +60,13 @@ for version in versions:
     with open(f'./{version}/pack.toml', "r") as f:
         pack_config = toml.loads(f.read())
 
+    quilt = 'quilt' in pack_config['versions']
+
     # Will be available in each suffixed '.template' file in MultiMC directory
     template_vars = { 
         'version': version,
-        'fabric_version': pack_config['versions']['fabric']
+        'loader_version': pack_config['versions']['quilt'] if quilt else pack_config['versions']['fabric'],
+        'loader_uid': 'org.quiltmc.quilt-loader' if quilt else 'net.fabricmc.fabric-loader'
     }
 
     # Generate MultiMC auto updating packs
