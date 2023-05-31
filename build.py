@@ -61,12 +61,14 @@ for version in versions:
         pack_config = toml.loads(f.read())
 
     quilt = 'quilt' in pack_config['versions']
+    loader_name = 'Quilt Loader' if quilt else 'Fabric Loader'
 
     # Will be available in each suffixed '.template' file in MultiMC directory
     template_vars = { 
         'version': version,
         'loader_version': pack_config['versions']['quilt'] if quilt else pack_config['versions']['fabric'],
-        'loader_uid': 'org.quiltmc.quilt-loader' if quilt else 'net.fabricmc.fabric-loader'
+        'loader_uid': 'org.quiltmc.quilt-loader' if quilt else 'net.fabricmc.fabric-loader',
+        'loader_name': loader_name
     }
 
     # Generate MultiMC auto updating packs
